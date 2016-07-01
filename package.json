@@ -1,0 +1,29 @@
+{
+  "name": "actions-and-filters",
+  "version": "0.2.0",
+  "description": "Simple synchronous actions and filters inspired by Wordpress' similar methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dskrepps/actions-and-filters.git"
+  },
+  "author": {
+    "name": "DSKrepps",
+    "email": "DSKrepps@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "actions",
+    "filters",
+    "strings",
+    "helper"
+  ],
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}
